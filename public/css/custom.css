@@ -1,0 +1,85 @@
+.scrollbar
+{
+	height: 300px;
+	width: 65px;
+	overflow-y: scroll;
+}
+
+/*
+ *  STYLE 2
+ */
+
+#scr-gray::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#scr-gray::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#scr-gray::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+/* scroll bar for ul */
+
+.select2-dropdown .select2-results ul::-webkit-scrollbar{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.select2-dropdown .select2-results ul::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.select2-dropdown .select2-results ul::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.box .overlay>.fa, .overlay-wrapper .overlay>.fa{
+	position: fixed;
+}
+
+.language.dropdown-menu{
+	width: 0px !important;
+}
+
+/*config common style*/
+table#data_list td.action a{
+	position: relative;
+	padding-right: 5px;
+}
+table#data_list td.action a:after{
+	display: block;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    content: "|";
+	top: -4px;
+	color: gray;
+}
+table#data_list td.action a:last-child:after{
+	display: none;
+}
+
+.select2-container{
+	width: 100% !important;
+}
+
+.user-panel>.image>img{
+	height: initial;
+	min-height: 45px;
+}

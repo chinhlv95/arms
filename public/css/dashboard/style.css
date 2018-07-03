@@ -1,0 +1,27 @@
+.tar_bar{
+    margin-bottom: 1em;
+}
+.tabs-top{
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #dd4b39;
+    overflow: hidden;
+}
+
+a.tab-active{
+    background: #f39c12;
+}
+
+.tabs-top .item {
+    float : left;
+    width: 33.333%;
+    text-align: center;
+}
+
+.tabs-top .item a{
+    color: #FFFFFF;
+    display: block;
+    padding: 1rem 0;
+}

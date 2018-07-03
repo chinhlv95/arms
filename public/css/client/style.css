@@ -1,0 +1,24 @@
+.warrpper{
+    height: 40rem;
+    width: 100%;
+}
+
+.warrper-relative{
+    position: relative;
+    display: block;
+}
+
+.button-import{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.error{
+    color: #dd4b39;
+}

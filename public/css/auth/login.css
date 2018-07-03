@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.container{
+    position: relative;
+}
+
+.just-align-middle {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.login-logo > a > h1{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.login-logo > a > small{
+    font-size: 20px;
+}

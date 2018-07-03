@@ -1,0 +1,112 @@
+#height-sm {
+  width: 150px;
+}
+table tbody a{
+	cursor: pointer;
+}
+
+.lst-data-projects {
+  position: relative;
+}
+
+.lst-data-projects .overlay {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+
+.box-primary .overlay {
+  display: none;
+}
+#message-server{
+	margin: 0!important;
+}
+#txt-search{
+	margin-left: 10px;
+	width: 100%;
+}
+#data-list-project{
+	margin-top: 20px;
+}
+.row-btn-loadmore{
+	padding: 15px;
+}
+.lst-entries-time{
+	position: relative;
+}
+.date-filter{
+	text-align: left!important;
+}
+#example1_filter label{
+	width: 90%;
+}
+.date-fillter input{
+	margin-left: 10px;
+}
+
+/*======Chart style===========*/
+#legent-detail li{
+	float:left;
+	margin: 0 0.5em;
+	padding:0 ;
+	list-style: none;
+	cursor: pointer;
+}
+#legent-detail li span{
+	width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 5px;
+}
+/*======Report project===========*/
+.option-filter{
+	padding-bottom : 15px;
+	display: none;
+}
+.title-report h4 i{
+	border: 1px solid #aaa;
+	padding: 7px 10px;
+	cursor: pointer;
+}
+.type-report a{
+	cursor: pointer;
+}
+.title-report i:hover{
+	border: 1px solid #444;
+	color: #444;
+}
+#content-report-project hr{
+	margin-top: 0!important;
+}
+#content-barchart{
+	    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.collapsible{
+	border-width: 1px 0 0 0;
+}
+fieldset {
+    border-top: 1px solid #e4e4e4;
+    padding: 0;
+    margin-bottom: 7px;
+}
+fieldset.collapsible>legend {
+    padding-right: 10px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 14px;
+    width: auto;
+    border: none;
+}
+fieldset.collapsible>legend>label{
+	cursor: pointer;
+    color: #636b6f;
+}
+
+#maeyes_project_import{
+	margin-right: 15px;
+}

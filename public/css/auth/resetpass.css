@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.box-reset-password{
+    margin: 15% auto;
+}
+
+.under-link{
+    font-weight: normal;
+    text-decoration: underline;
+}

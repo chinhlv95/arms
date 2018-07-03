@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.avatar_wrapper{
+    position: relative;
+}
+
+.change_avatar{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.help-block.has-error{
+    color: #dd4b39;
+}
+
+.profile-user-img{
+    width: 100px;
+    height: 100px;
+}
